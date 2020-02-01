@@ -1,6 +1,7 @@
 module DataStoresHelper
 
   def save_file(file)
+    # To save the file & to check error
     file_path_name_name = File.expand_path(file)
     directory_name = File.dirname(file_path_name)
     # Raise an error when the directory doesn't exist in the system.
